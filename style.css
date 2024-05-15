@@ -175,7 +175,7 @@ body {
 .container h2 {
     font-size: 24px;
     color: #000; 
-     /* margin-bottom: 50px;  */
+    
 }
 
 .container h2:first-child {
@@ -385,7 +385,7 @@ body {
 }
 
 .section {
-    /* width: 45%; */
+
     background-color: white;
     color: black;
     padding: 20px;
@@ -491,7 +491,7 @@ div.Samantha{
 div .Payne{
     background-color: #f8f9fa;
 }
-/* Style inputs, select elements, and textareas */
+
 input[type="text"],
 input[type="date"],
 input[type="number"],
