@@ -56,7 +56,7 @@ padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
 }
 .hero1 {
-    /* text-align: center; */
+    
     padding: 50px 0;
     background-color: rgb(255, 255, 255);
     color: hsla(0, 0%, 74%, 0.974);
@@ -205,8 +205,8 @@ padding-bottom: 10px;
 } 
 .contener-img {
     display: flex;
-    justify-content: center;
     width: 100%;
+    background-color: var(--white);
 }
 .services {
     display: grid;
@@ -391,7 +391,7 @@ padding-bottom: 10px;
 }
 
 .header img {
-    width: 50%;
+    width: 40%;
     height: auto;
 }
 
@@ -776,4 +776,19 @@ button:hover {
 }
 .checkbox{
     text-align: center;
+}
+.left-section{
+    background-color: var(--whiteBG);
+    width: 50%;
+    border-radius: 20px;
+}
+#our{
+    width: 420px;
+    padding: 20px;
+    background-color: var(--silver);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
 }
