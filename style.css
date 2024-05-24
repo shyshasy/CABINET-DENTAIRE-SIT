@@ -298,8 +298,6 @@ padding-bottom: 10px;
     width: 200px;
     height: 50px;
     margin: 20px auto;
-    background-color: #007BFF;
-    color: white;
     text-align: center;
     line-height: 50px;
     border-radius: 5px;
@@ -382,7 +380,7 @@ padding-bottom: 10px;
 }
 
 .header {
-    background-color: whitesmoke;
+    background-color: var(--white);
     color: black;
     padding: 20px;
     text-align: center;
@@ -401,13 +399,18 @@ padding-bottom: 10px;
 }
 
 .section {
-
-    background-color: white;
+    justify-content: space-evenly;
+    display: flex;
+    background-color:var(--whiteBG);
     color: black;
     padding: 20px;
     display: flex;
 }
+.section div img{
+    width: 150px;
+}
 
+}
 .doctor {
     display: flex;
 flex-direction: column; 
@@ -419,10 +422,15 @@ flex-direction: column;
 .doctor img {
     border-radius: 50%;
 }
+.doctor h4{
+    padding: 15px;
+}
 
 .doctor h4, .doctor p {
     text-align: center;
-    padding: 15px;
+    /* padding: 15px; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .doctor button {
@@ -455,7 +463,6 @@ flex-direction: column;
     margin-top: -100px;
   }
   body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -465,6 +472,7 @@ flex-direction: column;
 }
 
 .testimonial-section {
+    align-items: center;
     display: flex;
 background-color: #007BFF;
     color: white;
@@ -499,10 +507,11 @@ div.Samantha{
     background-color: white; 
     padding: 40px 20px 40px 20px ;
     margin-left: 80px;
-    box-shadow: none
-    
+    box-shadow: none;
+    height: 269px;
+    border-radius: 10px;   
 }
-}
+
 div .Payne{
     background-color: #f8f9fa;
 }
@@ -527,9 +536,9 @@ textarea {
 }
 button {
     background-color:var(--white);
-    color: var(--muted);
-    border: none;
-    border-radius: 6px;
+    color: var(--defaultLinkColor);
+    border: white solid 4px;
+    border-radius: 10px;
     padding: 14px 32px;
     font-weight: 600;
     cursor: pointer;
@@ -605,13 +614,13 @@ button:hover {
     flex-direction: column;
     background-color: #216583;
     padding: 50px 0;
-    width: 80%;
+    width: 82%;
     justify-content: center;
     box-sizing: var(--white);
     margin-left: 140px;
     text-align: center;
     box-shadow: none;
-    border-radius: 50px;
+    border-radius: 40px;
     
     
     
@@ -626,6 +635,11 @@ button:hover {
   .Subscrib input{
     width: 200px;
     margin: 10px;
+    background-color: var(--silver);
+    border: none;
+  }
+  .Subscrib input::placeholder{
+    color: white;
   }
 
   footer{
@@ -694,6 +708,7 @@ button:hover {
 }
 
 .histore{
+    background-color: var(--white);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -742,6 +757,7 @@ button:hover {
     color: var(--yellow);
 }
 .brains{
+    background-color: var(--white);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -783,12 +799,12 @@ button:hover {
     border-radius: 20px;
 }
 #our{
-    width: 420px;
+    width: 470px;
     padding: 20px;
-    background-color: var(--silver);
-    border-radius: 20px;
+    background-color: var(--whiteBG);
+    border-radius: 40px;
     justify-content: center;
     display: flex;
-    align-items: center;
-    margin-left: 30px;
+    margin-left: 90px;
+    text-align: left;
 }
